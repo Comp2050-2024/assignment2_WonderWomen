@@ -21,7 +21,7 @@ This will include the basic architecture of the system and the high-level strate
 - Concurrent processes (if any) and how they will be coordinated
 - A package diagram showing the subsystems you will use
 
-### Data Definitions (Mariya)
+### Data Definitions (Reesha)
 
 Create a table showing what data will need to be stored in your system. For each item give the name of the field/attribute/variable, its type, its meaning in the problem domain expressed in natural language, and an example of valid data.
 
