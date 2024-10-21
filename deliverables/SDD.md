@@ -24,11 +24,11 @@ The architecture of "Explore MQ" will include various layers:
    
     User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
 
-2. Backend Layer:-
+ 2. Backend Layer:-
 
-The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
+    The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
 
-API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
+    API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
 
 - Storage/persistent data strategy
 - Noteworthy trade-offs and choices
