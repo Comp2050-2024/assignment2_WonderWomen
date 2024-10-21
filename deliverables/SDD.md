@@ -18,18 +18,32 @@ This will include the basic architecture of the system and the high-level strate
 - System architecture
 The architecture of "Explore MQ" will include various layers:
 
- 1. Client/Front-End Layer:-
+1. Client/Front-End Layer:-
    
-    The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
+   The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
    
-    User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
+   User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
 
- 2. Backend Layer:-
+2. Backend Layer:-
 
-    The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
+   The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
 
-    API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
+   API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
 
+3. DataBase Layer:-
+
+   The data layer consists of a relational database that stores organised information on users, challenges, awards, and student progress (e.g., MySQL or PostgreSQL). Tables will be normalised to decrease redundancy while maintaining data integrity.
+   
+   Data Encryption: Susceptible information, including passwords and award details, will be protected using AES-256 at rest and TLS/SSL while in transit.
+
+4. Integration Layer:-
+
+   The system interfaces with Macquarie University's SSO system to provide safe authentication with university credentials.
+   
+   APIs or direct connections with local stores' point-of-sale (POS) systems provide smooth incentive redemption and tracking.
+
+   Student Information System Integration: To authenticate students' identities during registration and synchronise data with their records.
+   
 - Storage/persistent data strategy
 - Noteworthy trade-offs and choices
 - Concurrent processes (if any) and how they will be coordinated
