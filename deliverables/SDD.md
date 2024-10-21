@@ -16,6 +16,20 @@
 This will include the basic architecture of the system and the high-level strategic decisions. You need to include a description of the:
 
 - System architecture
+The architecture of "Explore MQ" will include various layers:
+
+1. Client/Front-End Layer:-
+   
+The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
+   
+User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
+
+2. Backend Layer:-
+
+The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
+
+API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
+
 - Storage/persistent data strategy
 - Noteworthy trade-offs and choices
 - Concurrent processes (if any) and how they will be coordinated
