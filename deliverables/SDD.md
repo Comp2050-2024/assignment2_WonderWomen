@@ -9,10 +9,10 @@
 
 - Project name, names of all team members
 
-  Sathya Reesha Kodali - 47823909
-  Sathvika Mannepally - 47846402
-  Mariya Hoque Trina - 47992700
-  Lisa Thiparala  - 47410272
+  - Sathya Reesha Kodali - 47823909
+  - Sathvika Mannepally - 47846402
+  - Mariya Hoque Trina - 47992700
+  - Lisa Thiparala  - 47410272
   
 - Vision statement
   > This should be a new and fresh vision statement and not a copy of the SRS team's statement.
