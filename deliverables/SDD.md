@@ -178,7 +178,7 @@ For each risk include
 - The severity of the risk (use an appropriate scale: none to catastrophic, or 0 to 10, or ...)
 - Mitigation strategies. Suggest measures that can be taken to reduce the risk.
 
-|                     |                      |                 |                    |
+|  ID                 |                      |                 |                    |
 | -------------       | -------------        |  -------------  |  -------------     |   
 
 
