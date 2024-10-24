@@ -180,7 +180,7 @@ For each risk include
 
 |  ID                 |                      |                 |                    |
 | -------------       | -------------        |  -------------  |  -------------     |   
-
+| 1                   |                      |                 |                    |
 
 > Since you do not know how many people work on the project, or what resources you may have, it does not make too much sense to talk about people risk, or estimation risk, yet. Furthermore, if something like a probability is unknown, is better to say that it is unknown, instead of making something up.
 
