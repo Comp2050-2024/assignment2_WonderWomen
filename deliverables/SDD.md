@@ -24,6 +24,7 @@
 | 24/10/2024          | Created presentation slides | MHT      |  Team members      |
 | 24/10/2024          | Data Definitions     |  SRK            |  Team members      |
 | 24/10/2024          | Class Diagram        |  SM             |  Team members      |
+| 24/10/2024          | State Diagram        |  SM             |  Team members      |
 
 
 
@@ -177,6 +178,10 @@ For each risk include
 - The severity of the risk (use an appropriate scale: none to catastrophic, or 0 to 10, or ...)
 - Mitigation strategies. Suggest measures that can be taken to reduce the risk.
 
+|                     |                      |                 |                    |
+| -------------       | -------------        |  -------------  |  -------------     |   
+
+
 > Since you do not know how many people work on the project, or what resources you may have, it does not make too much sense to talk about people risk, or estimation risk, yet. Furthermore, if something like a probability is unknown, is better to say that it is unknown, instead of making something up.
 
 ### Summary and Outlook (Mariya)
@@ -185,7 +190,7 @@ Your famous final words.
 
 ### Appendices (Everyone)
 
-- Log of interactions with stakeholders.
+- Log of interactions with stakeholders.   - see it in the whatsapp group including the stakeholders.
 - References.
 - Third-party-resources
 
