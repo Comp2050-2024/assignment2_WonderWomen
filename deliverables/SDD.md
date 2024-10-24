@@ -78,7 +78,12 @@ Create a table showing what data will need to be stored in your system. For each
 | ChallengeID         | INT                  |  A unique identifier for each challenge.                                                 |  2345342           |
 | ChallengeName       | VARCHAR(50)          |  Name of the challenge  in which the student is participating.                           |  Locating the campus facility.|
 | TaskProgress        | ENUM('complete', 'incomplete')|  Tracks the current status of the challenges done by students.                  |  incomplete        |
-| RewardVoucher       | VARCHAR(100)         | 
+| RewardVoucher       | VARCHAR(100)         |  A voucher code is generated when a student completes a task.                            |  Sq123             |
+| StoreID             | INT                  |  Unique identifier for store partner.                                                    |  4783792           |
+| ChallengeDate       | DATE                 |  The date challange was issued or expired.                                               |  2024-10-24        |
+| authToken           | VARCHAR(256)         |  Token used to authorise the users for securing the information.                         |  f237js342edj34    |
+| LocationData        | JSON                 |  Storing the data on the locations that was visited during a challenege.                 |  {"Mason Theatre"} |
+| Role                | ENUM('student', 'admin', 'store Partner')| Defines the level of user access.                                    |  student           |
 
 ### Analysis and Design
 
