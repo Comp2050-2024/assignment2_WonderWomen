@@ -23,7 +23,7 @@
 | 21/10/2024          | Team Member Names    |  SRK            |  Team members      |
 | 24/10/2024          | Created presentation slides | MHT      |  Team members      |
 | 24/10/2024          | Data Definitions     |  SRK            |  Team members      |
-
+| 24/10/2024          | Class Diagram        |  SM             |  Team members      |
 
 
 
