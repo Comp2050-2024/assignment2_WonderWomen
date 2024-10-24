@@ -99,8 +99,11 @@ You need to do an initial design of your system -- what basic objects should it 
 
 State Diagrams: You are required to consider the relevant states of each object in your system and to submit state diagrams for those that have interesting states or complex behaviour. One way to measure if a state is interesting is to consider whether you need to test that state before performing a particular action or if the state changes after an action is performed. What is interesting will depend on the application.
 
-###### State diagram 
+######  Challenge State diagram 
 ![image](https://github.com/user-attachments/assets/f839fd7f-3afb-40c4-8389-54f278f6d280)
+
+###### Reward State Diagram 
+![image](https://github.com/user-attachments/assets/91a66b1a-6cec-4076-b484-68b214a26e4a)
 
 
 ### Requirements Traceability Matrix (reesha)
