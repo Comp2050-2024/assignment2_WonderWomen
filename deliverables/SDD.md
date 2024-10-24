@@ -21,6 +21,8 @@
 | -------------       | -------------        |  -------------  |  -------------     |       
 | 21/10/2024          | System Design Doc    |  SRK            |  Team members      |
 | 21/10/2024          | Team Member Names    |  SRK            |  Team members      |
+| 24/10/2024          | Created presentation slides | MHT      |  Team members      |
+| 24/10/2024          | Data Definitions     |  SRK            |  Team members      |
 
 
 
@@ -69,8 +71,9 @@ Create a table showing what data will need to be stored in your system. For each
 
 |  Field Name         | Type                 | Meaning                                                                                  |  Example           |
 | -------------       | -------------        |  ------------------------------------                                                    |  -------------     |       
-| userID              | INT                  |  Each student or staff or store partners have been assigned a unique identifier          |  123456            |
-| 21/10/2024          | Team Member Names    |  SRK            |  Team members      |
+| UserID              | INT                  |  Each student or staff or store partners have been assigned a unique identifier.         |  123456            |
+| UserName            | VARCHAR(50)          |  The user's MQ login credentials.                                                        |  s124345     
+|
 
 
 ### Analysis and Design
