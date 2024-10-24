@@ -72,9 +72,13 @@ Create a table showing what data will need to be stored in your system. For each
 |  Field Name         | Type                 | Meaning                                                                                  |  Example           |
 | -------------       | -------------        |  ------------------------------------                                                    |  -------------     |       
 | UserID              | INT                  |  Each student or staff or store partners have been assigned a unique identifier.         |  123456            |
-| UserName            | VARCHAR(50)          |  The user's MQ login credentials.                                                        |  s124345     
-|
-
+| UserName            | VARCHAR(50)          |  The user's MQ login credentials.                                                        |  s124345           |
+| Email               | VARCHAR(50)          |  The user's MQ email.                                                                    |  @mq.edu.au        |
+| ProfileType         | ENUM('student', 'staff', 'store partner'| Determines if the user is a student or staff member or store partner. |  staff             |
+| ChallengeID         | INT                  |  A unique identifier for each challenge.                                                 |  2345342           |
+| ChallengeName       | VARCHAR(50)          |  Name of the challenge  in which the student is participating.                           |  Locating the campus facility.|
+| TaskProgress        | ENUM('complete', 'incomplete')|  Tracks the current status of the challenges done by students.                  |  incomplete        |
+| RewardVoucher       | VARCHAR(100)         | 
 
 ### Analysis and Design
 
