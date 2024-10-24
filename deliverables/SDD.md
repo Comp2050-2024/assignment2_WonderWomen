@@ -92,7 +92,154 @@ Create a table showing what data will need to be stored in your system. For each
 
 You need to do an initial design of your system -- what basic objects should it have? And what are the methods associated with those objects? You will represent your design decisions in a class diagram. In a full plan, you need to make sure any classes or methods in any sequence diagrams have been included in the class diagram -- it might help you to draw some sequence diagrams to help you to decide what your class diagram should contain. Method signatures should be given. The diagram must include, as appropriate classes, attributes, associations, inheritance and/or aggregation (if applicable) and multiplicities.
 
+BASIC OBJECTS AND CLASSES:
+
+1. User: All users in the system belong to this basic class. All user types share common properties and methods with it. 
+
+Attributes:
+userID
+name
+Email
+Role
+update
+
+Methods:
+login(): boolean
+logout(): void
+createProfile(): void
+
+2. Student: Inherits from User, standing in for students who are able to sign up for classes and check their grades.
+
+Methods:
+enrollInCourse(): void
+viewgrades(): List
+
+3. Staff: Inherits from User, standing in for staff who are able to manage courses and assign grades.
+
+Methods:
+manageCourses(): void
+assigngrades(): void
+
+4. StorePartner: Inherits from User, standing in for StorePartner who can offer and view Redemption history.
+
+Methods:
+addOffer(reward: Reward): void
+viewRedemptionhistory(): List
+
+5. Challenge: Represents a systemic challenge with related attributes and methods.
+
+Attributes:
+challengeID
+title
+description
+startDate
+endDate
+status
+
+Methods:
+createChallenge(): void
+updateChallenge(): void
+deleteChallenge(): void
+getChallengeDetails(): String
+
+6. Reward: Represents a redeemable incentive connected to a store.
+
+Attributes:
+rewardID
+description
+pointsRequired
+storeID
+
+Methods:
+generateVoucher(): String
+validateVoucher(voucherCode: String): boolean
+
+7. Store: Symbolizes a store that gives offers rewards
+
+Attributes:
+storeID
+name
+location
+offers
+
+Methods:
+addOffer(reward: Reward): void
+viewRedemptionhistory(): List
+
+8. Redemption: Symbolizes a redemption action for a reward.
+
+Attributes:
+redemptionID
+userID
+rewardID
+date
+pointsUsed
+
+Methods:
+recordRedemption(): void
+getRedemptionDetails(): String
+
+9. Notifications: Represents a notification that users receive regarding different happenings.
+
+Attributes:
+notificationID
+userID
+message
+date
+
+Methods:
+sendNotication(): void
+getNotifications(): List
+
+
 ![A-2 CD COMP 2050](https://github.com/user-attachments/assets/8357d24f-b924-4194-8c7a-20fa221b0dc7)
+
+ASSOCIATIONS, INHERITANCE, AGGREGATION  AND MULTIPLICITIES:
+
+INHERITANCE:
+Student, Staff, and StorePartner inherit from User
+
+AGGREGATION:
+A user may receive zero or more notifications, engage in zero or more challenges, and have zero or more redemptions.
+There can be zero or more rewards for a challenge.
+While a store may have more than one reward, a reward is only linked to one store.
+
+MULTIPLICITIES:
+
+User and Challenge:
+There can be zero or more challenges for a user ("1" -- "0..").
+One User is linked to each challenge.
+
+Challenge and price:
+There can be zero or more rewards linked to a challenge ("1" -- "0..").
+Every reward has a corresponding challenge.
+
+Reward and Store:
+One store is associated with a reward ("1" *-- "1").
+Every store has a variety of rewards to give.
+
+Redemption and User:
+Redemptions can be zero or more for a user ("1" -- "0..").
+A single User is the owner of each redemption.
+
+Notification and User:
+One or more notifications may be sent to a user ("1" -- "0..").
+Every notification is associated with a single user.
+
+Challenge and Redemption:
+A Redemption can have a zero or one Challenge associated with it ("1" *-- "0..1").
+
+StorePartner and Store:
+One Store is associated with a StorePartner ("1" *-- "1").
+
+Challenge and StorePartner:
+There can be zero or more challenges offered by a StorePartner ("1" -- "0..").
+
+Notification and Challenge:
+One Challenge or zero Challenge ("1" *-- "0..1") may be mentioned in a notification.
+
+Notification and Reward:
+One or zero Rewards can be linked to a notification ("1" *-- "0..1").
 
 
 
@@ -101,12 +248,52 @@ You need to do an initial design of your system -- what basic objects should it 
 State Diagrams: You are required to consider the relevant states of each object in your system and to submit state diagrams for those that have interesting states or complex behaviour. One way to measure if a state is interesting is to consider whether you need to test that state before performing a particular action or if the state changes after an action is performed. What is interesting will depend on the application.
 
 ######  Challenge State diagram 
+
+State diagram for Challenge:
+Throughout its existence, the Challenge class may exist in the following states: Draft, Active, Completed, and Expired. Actions such as creating, starting, finishing, or ending the challenge are necessary for the state transitions to occur.
+
+States: 
+Draft: Although not yet active, the challenge is being built.
+Active: The challenge is going on right now.
+Completed: The task has been effectively concluded.
+Expired: The challenge is no longer active.
+
+States transition:
+Create: Makes the switch from Draft to Active.
+Final Challenge: Moving from Active to Finalised.
+Expire: If the end date is reached without completion, it changes from Active to Expired.
+
 ![image](https://github.com/user-attachments/assets/f839fd7f-3afb-40c4-8389-54f278f6d280)
 
 ###### Reward State Diagram 
+
+State diagram for Reward:
+Moreover, the Reward class may exist in the following states: Available, Redeemed, and Expired. For the incentive lifecycle to be managed, the changes between these statuses are crucial.
+
+States:
+The price is available for users to redeem.
+Redeemed: A user has acknowledged receipt of the incentive.
+The price has expired and can no longer be redeemed.
+
+States transition:
+Redeem: Makes the change from Available to Eligible.
+In the event that the validity term expires, the status changes from Available to Expired.
+
 ![image](https://github.com/user-attachments/assets/91a66b1a-6cec-4076-b484-68b214a26e4a)
 
 ###### Redemption State Diagram
+
+State diagram for Redemption:
+Depending on whether a prize has been successfully redeemed, failed, or is still awaiting verification, the Redemption class may represent various states.
+
+States: 
+Pending: Although the redemption request has been started, it has not yet been handled.
+Successful: The redemption process was successfully finished.
+Failed: The redemption attempt was unsuccessful due to a lack of points or an expired prise, for example.
+
+States transition:
+Submit: Depending on how the redemption attempt turns out, it moves from Pending to Successful or Failed.
+
 ![image](https://github.com/user-attachments/assets/f4ff6f06-3133-4b5e-93a8-7d396ba05bc5)
 
 
