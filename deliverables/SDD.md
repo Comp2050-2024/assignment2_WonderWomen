@@ -67,6 +67,12 @@ The architecture of "Explore MQ" will include various layers:
 
 Create a table showing what data will need to be stored in your system. For each item give the name of the field/attribute/variable, its type, its meaning in the problem domain expressed in natural language, and an example of valid data.
 
+|  Field Name         | Type                 | Meaning                                                                                  |  Example           |
+| -------------       | -------------        |  ------------------------------------                                                    |  -------------     |       
+| userID              | INT                  |  Each student or staff or store partners have been assigned a unique identifier          |  123456            |
+| 21/10/2024          | Team Member Names    |  SRK            |  Team members      |
+
+
 ### Analysis and Design
 
 #### Class Diagram (Sathvika)
