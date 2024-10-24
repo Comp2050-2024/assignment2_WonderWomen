@@ -91,8 +91,8 @@ Create a table showing what data will need to be stored in your system. For each
 
 You need to do an initial design of your system -- what basic objects should it have? And what are the methods associated with those objects? You will represent your design decisions in a class diagram. In a full plan, you need to make sure any classes or methods in any sequence diagrams have been included in the class diagram -- it might help you to draw some sequence diagrams to help you to decide what your class diagram should contain. Method signatures should be given. The diagram must include, as appropriate classes, attributes, associations, inheritance and/or aggregation (if applicable) and multiplicities.
 
+![A-2 CD COMP 2050](https://github.com/user-attachments/assets/8357d24f-b924-4194-8c7a-20fa221b0dc7)
 
-![image](https://github.com/user-attachments/assets/f9526b7d-1b8f-49fb-bd84-8c6f6bc93ca6)
 
 
 #### One or more State Diagrams for the more interesting objects in your design (Sathvika)
