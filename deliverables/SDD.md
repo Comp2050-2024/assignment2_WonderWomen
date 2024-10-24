@@ -105,6 +105,10 @@ State Diagrams: You are required to consider the relevant states of each object 
 ###### Reward State Diagram 
 ![image](https://github.com/user-attachments/assets/91a66b1a-6cec-4076-b484-68b214a26e4a)
 
+###### Redemption State Diagram
+![image](https://github.com/user-attachments/assets/f4ff6f06-3133-4b5e-93a8-7d396ba05bc5)
+
+
 
 ### Requirements Traceability Matrix (reesha)
 
