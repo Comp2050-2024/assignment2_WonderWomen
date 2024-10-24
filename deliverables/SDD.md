@@ -329,6 +329,59 @@ Test Specifications should contain the following:
 
 > The test specification section should cover at least one-third of the report.
 
+1. Test Case Specifications:
+   
+The specific test cases you'll need to confirm your system's functionality are described in this section. You will add the following for every test case:
+
+a) Identification of Test Cases
+Each test case has its own unique identification (e.g., TC001, TC002).
+
+b) Description of the Test
+"Verify that a user may enroll in a challenge" is an example of a test case that provides a brief explanation of the feature being checked.
+
+c) Specifications for Input
+the test's necessary inputs, including any particular information (such as the user ID, challenge ID, or price ID).
+
+d) Specifications for Output
+the anticipated outputs or outcomes of the test, such as any modifications to the user interface, database entries, or status.
+
+2. Test Plan
+   
+Test Schedule:
+A schedule outlining the many tests that will be conducted. Add significant checkpoints, such as the beginning and ending of performance, user acceptance, and functional testing. 
+
+Testing Resources Required:
+Indicate the people and equipment needed for testing, including test environments, software, QA testers, and developers.
+
+Testing Milestones: 
+Describe the main testing stages and the tasks that must be finished at each stage.
+
+Test Deliverables:
+Describe the records or artifacts that will be created throughout the testing procedure, including bug logs, test reports, and screenshots of completed tests.
+
+3. Testing process:
+
+Test each feature's functionality (e.g., login, challenge enrolment, reward redemption).
+
+To make sure that several modules (such as Challenge, Reward, and Notification) function together, conduct integration testing.
+
+To make sure the system operates effectively under load, conduct performance testing.
+
+Involve end users in user acceptability testing (UAT) to make sure the solution satisfies their needs.
+
+Example of a Functional Testing Process:
+
+Configure the test environment, including the user accounts, test data, and test server.
+
+Follow the timetable when executing the test cases.
+
+In the test case execution report, note the outcomes.
+
+To have any bugs fixed, report them to the development team.
+
+Once the problems have been fixed, retest the unsuccessful test cases.
+
+
 ### Project Management
 
 #### Minimal Viable Product (Sathvika)
