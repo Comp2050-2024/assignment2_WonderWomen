@@ -116,7 +116,8 @@ The system will consist of various subsystems or modules:
 4. The Analytics and Reporting Module collects data for participation statistics and allows staff to develop engagement reports.
 5. The Notification System manages real-time updates and reminders for students.
 
-![image](https://github.com/user-attachments/assets/6265b4e5-2bc0-43f8-b24c-d7923651cb03)
+![image](https://github.com/user-attachments/assets/46b4efee-8b6a-4d47-83b3-03230f762a15)
+
 
 ### Data Definitions (Reesha)
 
