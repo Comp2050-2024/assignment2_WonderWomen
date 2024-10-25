@@ -355,7 +355,7 @@ the anticipated outputs or outcomes of the test, such as any modifications to th
 
 2. Test Plan
    
-Test Schedule:
+a. Test Schedule:
 A schedule outlining the many tests that will be conducted. Add significant checkpoints, such as the beginning and ending of performance, user acceptance, and functional testing. 
 
 Example:
@@ -368,14 +368,37 @@ Example:
 | User Acceptance Testing | 18/11/2024 | 24/11/2024 |
 | Final Testing and Evaluation | 30/11/2024 | 05/12/2024 |
 
-Testing Resources Required:
+b. Testing Resources Required:
 Indicate the people and equipment needed for testing, including test environments, software, QA testers, and developers.
 
-Testing Milestones: 
+Example:
+
+Two QA testers, one developer (for issue fixes), and one project manager are on personnel. 
+
+Tools include Selenium for automated user interface testing, JIRA for problem tracking, Postman for API testing, and Test Server.
+
+c. Testing Milestones: 
 Describe the main testing stages and the tasks that must be finished at each stage.
 
-Test Deliverables:
+Example:
+
+
+Completed test preparation: the identification of all test cases and the preparation of test data.
+
+Functional Testing Completed: Every essential feature has been tested and approved.
+
+Completed Performance Testing: The system satisfies all performance requirements, including load testing and reaction time.
+
+d. Test Deliverables:
 Describe the records or artifacts that will be created throughout the testing procedure, including bug logs, test reports, and screenshots of completed tests.
+
+Examples:
+
+Test Report: Provides an overview of the outcomes of every test case that was run.
+
+Bug Log: A record of every bug found, together with its severity and status (open, in progress, or resolved).
+
+A report that lists the test cases that succeeded or failed at each stage of testing is called a test case execution report.
 
 3. Testing process:
 
