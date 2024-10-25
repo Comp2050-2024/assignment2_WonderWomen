@@ -414,6 +414,36 @@ The RTM assigns requirements to the appropriate use cases, classes, methods, and
 
 This will help the reader to understand why you have done certain things. Please review the assumptions carefully before submission. (But note: A poor assumption should not be used as an excuse for poor design decisions.)
 
+
+1. Assumptions for the Challenge State Diagram Design:
+
+Challenge lifecycle: It is expected that every challenge has a distinct lifespan, which includes creation (Draft), activation (Active), and completion or expiration depending on user time or completion.
+
+shift Timing: Presupposes that a predetermined end date will trigger the shift to Expired, negating the need for extra user intervention.
+
+User Actions Needed: The system's Create and End Challenge transitions are user-driven, meaning that a user must initiate them.
+
+2. Assumptions for the Reward State Diagram Design:
+
+Restricted Reward Availability: There are no intermediate states or partial redemptions; rewards can only be in one of three states: Available, Redeemed, or Expired.
+
+Expiration Logic: If the system correctly records the duration of rewards, they will automatically change to Expired after a predetermined validity time.
+
+Single-utilise Redeemable: Presupposes that a user can only utilise a reward once and that it is no longer accessible to other users after that.
+
+3. Assumptions for the Redemption State Diagram:
+
+Outcome-Based Transitions: Redemptions are anticipated to change from Pending to Successful or Failed, depending on factors such as reward status (e.g., expired) or point availability.
+
+Automatic Verification: The flow is made simpler by the assumption that verification takes place right away after submission, eliminating the need for a "in-review" or "processing" state.
+
+Not redeemable Once Failed: Presupposes that a redemption that has been designated as unsuccessful cannot be attempted again or submitted again without initiating a fresh redemption request.
+
+
+Explanation of  Assumptions:
+
+These presumptions seek to streamline the lifecycle of each item by emphasising important stages while avoiding needless complexity. They make it clear that most transitions are either system-driven (like expiration because of time limits) or user-driven (like signing up for a challenge or using a reward). These presumptions guarantee that every object operates reliably and preserves an easy-to-use interface by specifying distinct, non-overlapping states.
+
 ### Test specifications (Sathvika)
 
 Test Specifications should contain the following:
