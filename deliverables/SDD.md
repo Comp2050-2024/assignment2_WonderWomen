@@ -373,54 +373,53 @@ Indicate the people and equipment needed for testing, including test environment
 
 Example:
 
-Two QA testers, one developer (for issue fixes), and one project manager are on personnel. 
+- Two QA testers, one developer (for issue fixes), and one project manager are on personnel. 
 
-Tools include Selenium for automated user interface testing, JIRA for problem tracking, Postman for API testing, and Test Server.
+- Tools include Selenium for automated user interface testing, JIRA for problem tracking, Postman for API testing, and Test Server.
 
 c. Testing Milestones: 
 Describe the main testing stages and the tasks that must be finished at each stage.
 
 Example:
 
+- Completed test preparation: the identification of all test cases and the preparation of test data.
 
-Completed test preparation: the identification of all test cases and the preparation of test data.
+- Functional Testing Completed: Every essential feature has been tested and approved.
 
-Functional Testing Completed: Every essential feature has been tested and approved.
-
-Completed Performance Testing: The system satisfies all performance requirements, including load testing and reaction time.
+- Completed Performance Testing: The system satisfies all performance requirements, including load testing and reaction time.
 
 d. Test Deliverables:
 Describe the records or artifacts that will be created throughout the testing procedure, including bug logs, test reports, and screenshots of completed tests.
 
 Examples:
 
-Test Report: Provides an overview of the outcomes of every test case that was run.
+- Test Report: Provides an overview of the outcomes of every test case that was run.
 
-Bug Log: A record of every bug found, together with its severity and status (open, in progress, or resolved).
+- Bug Log: A record of every bug found, together with its severity and status (open, in progress, or resolved).
 
-A report that lists the test cases that succeeded or failed at each stage of testing is called a test case execution report.
+- A report that lists the test cases that succeeded or failed at each stage of testing is called a test case execution report.
 
 3. Testing process:
 
-Test each feature's functionality (e.g., login, challenge enrolment, reward redemption).
+- Test each feature's functionality (e.g., login, challenge enrolment, reward redemption).
 
-To make sure that several modules (such as Challenge, Reward, and Notification) function together, conduct integration testing.
+- To make sure that several modules (such as Challenge, Reward, and Notification) function together, conduct integration testing.
 
-To make sure the system operates effectively under load, conduct performance testing.
+- To make sure the system operates effectively under load, conduct performance testing.
 
-Involve end users in user acceptability testing (UAT) to make sure the solution satisfies their needs.
+- Involve end users in user acceptability testing (UAT) to make sure the solution satisfies their needs.
 
 Example of a Functional Testing Process:
 
-Configure the test environment, including the user accounts, test data, and test server.
+- Configure the test environment, including the user accounts, test data, and test server.
 
-Follow the timetable when executing the test cases.
+- Follow the timetable when executing the test cases.
 
-In the test case execution report, note the outcomes.
+- In the test case execution report, note the outcomes.
 
-To have any bugs fixed, report them to the development team.
+- To have any bugs fixed, report them to the development team.
 
-Once the problems have been fixed, retest the unsuccessful test cases.
+- Once the problems have been fixed, retest the unsuccessful test cases.
 
 
 ### Project Management
