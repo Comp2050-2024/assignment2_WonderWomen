@@ -253,15 +253,22 @@ State diagram for Challenge:
 Throughout its existence, the Challenge class may exist in the following states: Draft, Active, Completed, and Expired. Actions such as creating, starting, finishing, or ending the challenge are necessary for the state transitions to occur.
 
 States: 
-Draft: Although not yet active, the challenge is being built.
-Active: The challenge is going on right now.
-Completed: The task has been effectively concluded.
-Expired: The challenge is no longer active.
+
+- Draft: Although not yet active, the challenge is being built.
+  
+- Active: The challenge is going on right now.
+
+- Completed: The task has been effectively concluded.
+
+- Expired: The challenge is no longer active.
 
 States transition:
-Create: Makes the switch from Draft to Active.
-Final Challenge: Moving from Active to Finalised.
-Expire: If the end date is reached without completion, it changes from Active to Expired.
+
+- Create: Makes the switch from Draft to Active.
+
+- Final Challenge: Moving from Active to Finalised.
+
+- Expire: If the end date is reached without completion, it changes from Active to Expired.
 
 ![image](https://github.com/user-attachments/assets/f839fd7f-3afb-40c4-8389-54f278f6d280)
 
@@ -271,13 +278,18 @@ State diagram for Reward:
 Moreover, the Reward class may exist in the following states: Available, Redeemed, and Expired. For the incentive lifecycle to be managed, the changes between these statuses are crucial.
 
 States:
-The price is available for users to redeem.
-Redeemed: A user has acknowledged receipt of the incentive.
-The price has expired and can no longer be redeemed.
+
+- The price is available for users to redeem.
+
+- Redeemed: A user has acknowledged receipt of the incentive.
+
+- The price has expired and can no longer be redeemed.
 
 States transition:
-Redeem: Makes the change from Available to Eligible.
-In the event that the validity term expires, the status changes from Available to Expired.
+
+- Redeem: Makes the change from Available to Eligible.
+
+- In the event that the validity term expires, the status changes from Available to Expired.
 
 ![image](https://github.com/user-attachments/assets/91a66b1a-6cec-4076-b484-68b214a26e4a)
 
@@ -287,12 +299,16 @@ State diagram for Redemption:
 Depending on whether a prize has been successfully redeemed, failed, or is still awaiting verification, the Redemption class may represent various states.
 
 States: 
-Pending: Although the redemption request has been started, it has not yet been handled.
-Successful: The redemption process was successfully finished.
-Failed: The redemption attempt was unsuccessful due to a lack of points or an expired prise, for example.
+
+- Pending: Although the redemption request has been started, it has not yet been handled.
+
+- Successful: The redemption process was successfully finished.
+
+- Failed: The redemption attempt was unsuccessful due to a lack of points or an expired prise, for example.
 
 States transition:
-Submit: Depending on how the redemption attempt turns out, it moves from Pending to Successful or Failed.
+
+- Submit: Depending on how the redemption attempt turns out, it moves from Pending to Successful or Failed.
 
 ![image](https://github.com/user-attachments/assets/f4ff6f06-3133-4b5e-93a8-7d396ba05bc5)
 
