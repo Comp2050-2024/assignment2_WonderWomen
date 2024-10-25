@@ -206,39 +206,54 @@ While a store may have more than one reward, a reward is only linked to one stor
 
 MULTIPLICITIES:
 
-User and Challenge:
+- User and Challenge:
+  
 There can be zero or more challenges for a user ("1" -- "0..").
+
 One User is linked to each challenge.
 
-Challenge and price:
+- Challenge and price:
+  
 There can be zero or more rewards linked to a challenge ("1" -- "0..").
+
 Every reward has a corresponding challenge.
 
-Reward and Store:
+- Reward and Store:
+  
 One store is associated with a reward ("1" *-- "1").
+
 Every store has a variety of rewards to give.
 
-Redemption and User:
+- Redemption and User:
+  
 Redemptions can be zero or more for a user ("1" -- "0..").
+
 A single User is the owner of each redemption.
 
-Notification and User:
+- Notification and User:
+  
 One or more notifications may be sent to a user ("1" -- "0..").
+
 Every notification is associated with a single user.
 
-Challenge and Redemption:
+- Challenge and Redemption:
+  
 A Redemption can have a zero or one Challenge associated with it ("1" *-- "0..1").
 
-StorePartner and Store:
+- StorePartner and Store:
+  
 One Store is associated with a StorePartner ("1" *-- "1").
 
-Challenge and StorePartner:
+- Challenge and StorePartner:
+  
 There can be zero or more challenges offered by a StorePartner ("1" -- "0..").
 
-Notification and Challenge:
+- Notification and Challenge:
+  
 One Challenge or zero Challenge ("1" *-- "0..1") may be mentioned in a notification.
 
-Notification and Reward:
+- Notification and Reward:
+  
 One or zero Rewards can be linked to a notification ("1" *-- "0..1").
 
 
