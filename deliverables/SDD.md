@@ -334,7 +334,7 @@ Test Specifications should contain the following:
 The specific test cases you'll need to confirm your system's functionality are described in this section. You will add the following for every test case:
 
 a) Identification of Test Cases
-Each test case has its own unique identification (e.g., TC001, TC002).
+Each test case has its own unique identification (e.g., TC0001, TC0002).
 
 b) Description of the Test
 "Verify that a user may enroll in a challenge" is an example of a test case that provides a brief explanation of the feature being checked.
@@ -347,10 +347,10 @@ the anticipated outputs or outcomes of the test, such as any modifications to th
 
 | Test Case Identifier | Test Description | Input Specifications | Output Specifications |
 |  -------------       | -------------    |  -------------       |  -------------        |   
-|  TC001               |Verify login user functionality | Username: "user1" Password: "password123" |  User successfully logs in and sees homepage       |   
-|  -------------       | -------------    |  -------------       |  -------------        |   
-|  -------------       | -------------    |  -------------       |  -------------        |   
-|  -------------       | -------------    |  -------------       |  -------------        |   
+|  TC0001               |Verify login user functionality | Username: "user1"           Password: "password456" |  User successfully logs in and sees homepage       |   
+| TC0002                | Verify Challenge enrollment by user  |  User ID: 10001,       Challenge ID: 400       |  Challenge enrollment confirmation for the user        |   
+| TC0003                | Verify reward redemption by user    |  User ID: 10002,                 Reward ID: 200     |  Reward successfully redeemed, points deducted        |   
+|  TC0004               |Verify notification is sent to the user   | User ID: 10001,             Notification ID: 101       |  -------------        |   
 
 
 2. Test Plan
