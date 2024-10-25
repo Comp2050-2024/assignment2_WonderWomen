@@ -19,7 +19,7 @@
 
 |Date of New Version  | Changes made         | Changes made by |  Changes agreed by |
 | -------------       | -------------        |  -------------  |  -------------     |       
-| 21/10/2024          | System Design Doc    |  SRK            |  Team members      |
+| 21/10/2024          | System Design Document    |  SRK            |  Team members      |
 | 21/10/2024          | Team Member Names    |  SRK            |  Team members      |
 | 24/10/2024          | Created presentation slides | MHT      |  Team members      |
 | 24/10/2024          | Data Definitions     |  SRK            |  Team members      |
@@ -27,6 +27,7 @@
 | 24/10/2024          | State Diagram        |  SM             |  Team members      |
 | 25/10/2024          | Test Specifications       |  SM             |  Team members      |
 | 25/10/2024          | Minimum Viable Product        |  SM             |  Team members      |
+| 25/10/2024          | System Design Document   | SRK              |   Team members   |
 
 ### System Design Document (Reesha)
 
@@ -37,34 +38,83 @@ The architecture of "Explore MQ" will include various layers:
 
 1. Client/Front-End Layer:-
    
-   The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
+The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
    
-   User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
+User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
 
 2. Backend Layer:-
 
-   The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
+The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
 
-   API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
+API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
 
 3. DataBase Layer:-
 
-   The data layer consists of a relational database that stores organised information on users, challenges, awards, and student progress (e.g., MySQL or PostgreSQL). Tables will be normalised to decrease redundancy while maintaining data integrity.
+The data layer consists of a relational database that stores organised information on users, challenges, awards, and student progress (e.g., MySQL or PostgreSQL). Tables will be normalised to decrease redundancy while maintaining data integrity.
    
-   Data Encryption: Susceptible information, including passwords and award details, will be protected using AES-256 at rest and TLS/SSL while in transit.
+Data Encryption: Susceptible information, including passwords and award details, will be protected using AES-256 at rest and TLS/SSL while in transit.
 
 4. Integration Layer:-
 
-   The system interfaces with Macquarie University's SSO system to provide safe authentication with university credentials.
+The system interfaces with Macquarie University's SSO system to provide safe authentication with university credentials.
    
-   APIs or direct connections with local stores' point-of-sale (POS) systems provide smooth incentive redemption and tracking.
+APIs or direct connections with local stores' point-of-sale (POS) systems provide smooth incentive redemption and tracking.
 
-   Student Information System Integration: To authenticate students' identities during registration and synchronise data with their records.
+ Student Information System Integration: To authenticate students' identities during registration and synchronise data with their records.
    
 - Storage/persistent data strategy
+
+1. Relational Database:-
+  
+A relational database stores profiles of users, challenge data, reward information, and student progress in a structured fashion. A relational database (such as MySQL or PostgreSQL) is perfect for managing complicated relationships among users, challenges, and rewards.
+
+To improve query performance, each table will have suitable indexes on regularly searched fields (for example, userID, challengeID).
+
+2. Data Security: 
+Sensitive data, such as user credentials and incentive vouchers, will be secured at rest using AES-256 to prevent unauthorised access and remain unreadable.
+The app will employ HTTPS with TLS/SSL encryption to protect against man-in-the-middle attacks and data leakage.
+
+3. Data Backup and Recovery: 
+We will implement regular backups and automated daily snapshots to minimise data loss in case of failure.
+A backup plan with both hot and cold backups will be implemented. In the event of a system failure, restoration from the most recent backup will proceed with minimal downtime.
+
 - Noteworthy trade-offs and choices
+
+1. Database Options:
+
+Using a relational database (such as MySQL) assures data integrity, security, and scalability as the number of users increases. However, because relational databases require organised schemas, schema evolution (for example, adding new features) is slightly more involved than with NoSQL databases.
+
+2. Integration With External Systems:
+
+Integrating with external reward systems adds complexity but, through relationships with local companies, allows for a more comprehensive user experience. This decision necessitates cautious API design to reduce communication delays between systems.
+
+3. Performance versus Flexibility:
+
+Real-time notifications and incentive generating necessitate a delicate balance between quick response times and the freedom to allow retailers to handle their promotions. This trade-off could involve choosing between immediate award redemption and system holdups during peak loads.
+
 - Concurrent processes (if any) and how they will be coordinated
+
+1. Challenge Enrolment and Task Processing:
+
+Multiple users can participate in challenges simultaneously. Therefore, the backend must efficiently manage concurrent user sessions and data writes. Sessionnologies, such as Redis, can manage tech to ensure user data is accurate across transactions.  
+
+2.Real-time notifications:
+
+A message queuing system like RabbitMQ can manage immediate notifications for incomplete challenges, award redemptions, and changes. It ensures that tasks are completed asynchronously without disrupting the primary application flow.
+
+3.Coordination of SSO and Reward Systems:
+
+API rate limitation and retries will govern connectivity with outside resources (SSO for authentication and POS systems for rewards), enabling graceful failures and system responsiveness during downtime or faults.
+
 - A package diagram showing the subsystems you will use
+
+The system will consist of various subsystems or modules:
+
+1. Authentication Module: Manages user logins, password resets, and SSO integration.
+2. The Challenge Management Module manages challenge creation, task progress, and notifications.
+3. Reward Management Module: Communicates with retailers and manages voucher production and redemption.
+4. The Analytics and Reporting Module collects data for participation statistics and allows staff to develop engagement reports.
+5. The Notification System manages real-time updates and reminders for students.
 
 ### Data Definitions (Reesha)
 
