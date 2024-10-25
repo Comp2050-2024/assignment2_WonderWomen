@@ -25,8 +25,8 @@
 | 24/10/2024          | Data Definitions     |  SRK            |  Team members      |
 | 24/10/2024          | Class Diagram        |  SM             |  Team members      |
 | 24/10/2024          | State Diagram        |  SM             |  Team members      |
-
-
+| 25/10/2024          | Test Specifications       |  SM             |  Team members      |
+| 25/10/2024          | Minimum Viable Product        |  SM             |  Team members      |
 
 ### System Design Document (Reesha)
 
