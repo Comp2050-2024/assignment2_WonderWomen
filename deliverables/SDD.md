@@ -498,7 +498,7 @@ To support the MVP, the following elements of the architecture must be present:
 3. Data storage and databases:
 
 - User information, challenges, awards, redemptions, and notifications are all stored in a database.
-
+ 
 - Tables for Notification, Redemption, Reward, Challenge, and User.
 
 4. Notification System:
