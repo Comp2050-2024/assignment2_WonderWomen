@@ -393,6 +393,20 @@ Requirements Traceability Matrix (RTM): Set up an RTM with the following columns
 - Packages
 - Build Number (kept blank at this stage)
 
+The RTM assigns requirements to the appropriate use cases, classes, methods, and packages, ensuring complete traceability.
+
+| Requirement ID | Use Cases | Classes | Methods | Packages | Build Number|
+|----------------|-----------|---------|---------|----------|-------------|
+| FR - 1         | Login, Forgot Password | User, Auth | login(), resetPassword() | Authentication |         |
+| FR - 2         | Challenge Enrollment | Challenge, Task | enrollChallenge() | Challenge Management |       |
+| FR - 3         | Task Progress Tracking | Task, Progress | taskProgress() | Challenge Management |         |
+| FR - 4         | Reward Redemption | Reward, Voucher | redeemVoucher() | Reward System |                   |
+| FR - 5         | Store Management | Store, Reward | manageStoreRewards() | Reward System |                 |
+| FR - 6         | Notifications, rewards | Notifications, task | sendReminder() | Notification System |     |
+| FR - 7         | Participation Tracking | Analytics | generateReport() | Analystics |                      |
+| FR - 8         | Student Verification | User, Auth | verifyStudent() | Authentication |                    |
+| FR - 9         |
+
 > There should be one row for each requirement. For this deliverable, just fill in the first five columns, since the last column (and usually a couple more after that which I've already deleted) are concerned with the design of the system.
 
 ### List of design assumptions (if any)
