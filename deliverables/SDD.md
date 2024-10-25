@@ -350,13 +350,23 @@ the anticipated outputs or outcomes of the test, such as any modifications to th
 |  TC0001               |Verify login user functionality | Username: "user1"           Password: "password456" |  User successfully logs in and sees homepage       |   
 | TC0002                | Verify Challenge enrollment by user  |  User ID: 10001,       Challenge ID: 400       |  Challenge enrollment confirmation for the user        |   
 | TC0003                | Verify reward redemption by user    |  User ID: 10002,                 Reward ID: 200     |  Reward successfully redeemed, points deducted        |   
-|  TC0004               |Verify notification is sent to the user   | User ID: 10001,             Notification ID: 101       |  -------------        |   
+|  TC0004               |Verify notification is sent to the user   | User ID: 10001,             Notification ID: 101       |  Notification appears in user's notification area      |   
 
 
 2. Test Plan
    
 Test Schedule:
 A schedule outlining the many tests that will be conducted. Add significant checkpoints, such as the beginning and ending of performance, user acceptance, and functional testing. 
+
+Example:
+
+| Milestone | Start Date | End Date |
+| --------- | ---------- | -------- |
+| Test Preperation | 21/10/2024 | 25/10/2024 |
+| Functional Testing | 26/10/2024 | 10/11/2024 |
+| Performance Testing | 11/11/2024 | 17/11/2024 |
+| User Acceptance Testing | 18/11/2024 | 24/11/2024 |
+| Final Testing and Evaluation | 30/11/2024 | 05/12/2024 |
 
 Testing Resources Required:
 Indicate the people and equipment needed for testing, including test environments, software, QA testers, and developers.
