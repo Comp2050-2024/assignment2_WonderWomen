@@ -459,6 +459,60 @@ Example of a Functional Testing Process:
 
 A description of the _minimal viable product_. This is a version of the product, that is suitable for the client, trusted customers, or early adopter to use for evaluation. Which of the requirements does it implement, and which part of the architecture needs to be in place?
 
+
+The first iteration of the system that incorporates only the necessary features for early assessment by clients, early adopters, or trusted consumers is known as the Minimal Viable Product (MVP). The MVP's objective is to deliver a working product with essential functionality while allowing for future improvements. It provides the framework for getting input and confirming the system's feasibility.
+
+
+
+Requirements Implemented in the MVP:
+
+The following crucial needs will be implemented by the MVP:
+
+- User authentication: It allows store StorePartners, staff, and students to safely log in and out.
+  
+- Profile Management: Using their user ID, name, email, and role, users can build and edit their profiles.
+
+- Enrolment in Challenges: Students will be able to see and sign up for challenges.
+
+- Reward Management: Users may browse and redeem prizes, and StorePartners can create and administer them.
+
+- Redemption Monitoring: The system will keep track of and record redemptions.
+
+- Notification System: When users sign up for challenges or spend incentives, they will receive simple notifications.
+
+
+Essential Architecture Elements for the MVP:
+
+To support the MVP, the following elements of the architecture must be present:
+
+1. System for User Management:
+
+- Procedures for authorisation and authentication to guarantee that various roles—staff, students, and store partners—have the proper access to features.
+
+2. Subsystems of Challenge and Reward:
+
+- A challenge creation and management module.
+
+- A method for redeeming rewards and connecting them to tasks.
+
+3. Data storage and databases:
+
+- User information, challenges, awards, redemptions, and notifications are all stored in a database.
+
+- Tables for Notification, Redemption, Reward, Challenge, and User.
+
+4. Notification System:
+
+- A mechanism to send out alerts when someone completes tasks like signing up for a challenge or using a reward.
+  
+5. Frontend interface basics:
+
+- A straightforward user interface that allows users to manage their profiles, browse challenges, log in, and collect rewards.
+
+
+In conclusion, the MVP will enable safe authentication, simple frontend interfaces, and the required database support while offering crucial features for user management, challenge enrolment, reward management, and notification. Early adopters can interact with key features in this foundational version and provide insightful input that will inform future enhancements and feature additions.
+
+
 #### Milestones(Mariya)
 
 A description of the main implementation milestones, in the order in which they should occur in the project. A milestone marks the end of a stage in the project when a version of the product can be reviewed as a whole.
