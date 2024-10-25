@@ -28,6 +28,7 @@
 | 25/10/2024          | Test Specifications       |  SM             |  Team members      |
 | 25/10/2024          | Minimum Viable Product        |  SM             |  Team members      |
 | 25/10/2024          | System Design Document   | SRK              |   Team members   |
+| 25/10/2024          | Requirement Traceability Matrix | SRK       | Team members     |
 
 ### System Design Document (Reesha)
 
@@ -405,7 +406,7 @@ The RTM assigns requirements to the appropriate use cases, classes, methods, and
 | FR - 6         | Notifications, rewards | Notifications, task | sendReminder() | Notification System |     |
 | FR - 7         | Participation Tracking | Analytics | generateReport() | Analystics |                      |
 | FR - 8         | Student Verification | User, Auth | verifyStudent() | Authentication |                    |
-| FR - 9         |
+| FR - 9         | Profile Management | User, Task | manageProfiles() | User Management |                    |
 
 > There should be one row for each requirement. For this deliverable, just fill in the first five columns, since the last column (and usually a couple more after that which I've already deleted) are concerned with the design of the system.
 
