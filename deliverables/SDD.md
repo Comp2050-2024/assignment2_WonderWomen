@@ -98,11 +98,11 @@ Real-time notifications and incentive generating necessitate a delicate balance 
 
 Multiple users can participate in challenges simultaneously. Therefore, the backend must efficiently manage concurrent user sessions and data writes. Sessionnologies, such as Redis, can manage tech to ensure user data is accurate across transactions.  
 
-2.Real-time notifications:
+2. Real-time notifications:
 
 A message queuing system like RabbitMQ can manage immediate notifications for incomplete challenges, award redemptions, and changes. It ensures that tasks are completed asynchronously without disrupting the primary application flow.
 
-3.Coordination of SSO and Reward Systems:
+3. Coordination of SSO and Reward Systems:
 
 API rate limitation and retries will govern connectivity with outside resources (SSO for authentication and POS systems for rewards), enabling graceful failures and system responsiveness during downtime or faults.
 
@@ -115,6 +115,8 @@ The system will consist of various subsystems or modules:
 3. Reward Management Module: Communicates with retailers and manages voucher production and redemption.
 4. The Analytics and Reporting Module collects data for participation statistics and allows staff to develop engagement reports.
 5. The Notification System manages real-time updates and reminders for students.
+
+![image](https://github.com/user-attachments/assets/6265b4e5-2bc0-43f8-b24c-d7923651cb03)
 
 ### Data Definitions (Reesha)
 
