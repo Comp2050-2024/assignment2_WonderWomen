@@ -345,7 +345,13 @@ the test's necessary inputs, including any particular information (such as the u
 d) Specifications for Output
 the anticipated outputs or outcomes of the test, such as any modifications to the user interface, database entries, or status.
 
-| Test Case Identifier  |  Test Description     |  Input Specifications  |  Output Specifications |
+| Test Case Identifier | Test Description | Input Specifications | Output Specifications |
+|  -------------       | -------------    |  -------------       |  -------------        |   
+|  TC001               |Verify login user functionality | Username: "user1" Password: "password123" |  User successfully logs in and sees homepage       |   
+|  -------------       | -------------    |  -------------       |  -------------        |   
+|  -------------       | -------------    |  -------------       |  -------------        |   
+|  -------------       | -------------    |  -------------       |  -------------        |   
+
 
 2. Test Plan
    
