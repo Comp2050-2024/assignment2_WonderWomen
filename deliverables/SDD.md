@@ -676,11 +676,17 @@ For each risk include
 - The severity of the risk (use an appropriate scale: none to catastrophic, or 0 to 10, or ...)
 - Mitigation strategies. Suggest measures that can be taken to reduce the risk.
 
-| Risk ID |   Description        |   Probabbility  |   Severity     | Mitigation Strategy |
-| R01     | -------------        |  -------------  |  ------------- | ------------------- |  
-| R01  | Changes in management and/or stakeholders requirements that lead to the project goals being changed.  |   Medium  |   High  | High
-Consistent and regular meetings with stakeholders to ensure expectations and decisions are aligned.|
 
+| Risk ID | Description | Probability | Severity | Mitigation Strategy |
+| ------- | ----------- | ----------- | -------- | ------------------- |
+| R01     | Changes in management and/or stakeholders requirements that lead to the project goals being changed.      |  Medium     | High     | Consistent and regular meetings with stakeholders to ensure expectations and decisions are aligned.|
+| R02     | Incomplete or misunderstood requirements producing incorrect or inefficient features. | Medium | High | Thoroughly review requirement analysis in collaboration with the stakeholders. |
+| R03 | Integration problems with external systems or teams. | Medium | High | Ensure regular integration testing for systems and regular communication with teams. |
+| R04 | Used development tools become outdated or malfunction. | Low | Medium | Performance testing and select scalable technology stacks. 
+| R05 | Stakeholders changing the scope or objectives for the project after the project has started. | High | Medium | Determine a formal process to manage changes or adjustments in objectives. |
+| R06 | Frequent changes to the requirements during the development process. | Medium | High |  To manage and document requirement changes use Agile methodologies. |
+| R07 | Limitations in hardware/software, impacting the performance or scalability of the app. | Low | Medium | Select technology stacks that are scalable and conduct performance testing. |
+| R08 | The different software tools used by multiple teams may be incompatible. | Medium | Medium | Ensure interoperability is maintained through standardised tool usage among teams. | 
 
 
 > Since you do not know how many people work on the project, or what resources you may have, it does not make too much sense to talk about people risk, or estimation risk, yet. Furthermore, if something like a probability is unknown, is better to say that it is unknown, instead of making something up.
