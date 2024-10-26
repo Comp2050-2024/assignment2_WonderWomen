@@ -34,7 +34,8 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |26/10/2024           | Setting Milestones        | MHT       | Team members|
 | 26/10/2024          | Tasks for milestones| MHT | Team Members|
 |26/10/2024| Summary and Outlook| MHT| Team Members|
-
+|26/10/2024| Added Log of Interaction with Stakeholders|MHT|Team Members|
+|26/10/2024| Added References| MHT| Team Members|
 
 ### System Design Document (Reesha)
 
@@ -659,14 +660,6 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 |T010| Collecting feedback documents from initial users for adjustments| T009| 3| Milestone6|
 
 
-Describe the main tasks that need to be completed, in the form of a table. The table should include
-
-- An ID for the task
-- A description of the task
-- Dependencies, i.e. tasks that need to be completed before this task can start.
-- Effort. Since you do not know how, or even how many people work on the project, it does not make sense for this assignment to estimate workdays. Instead pick a suitable scale (S, M, L, XL or 1 to 5 stars or ...)
-- Milestone. Which milestone do they belong to?
-
 #### Risks (Lisa)
 
 A table with the following types of risks
@@ -703,8 +696,18 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
 
 ### Appendices (Everyone)
 
-- Log of interactions with stakeholders.   - see it in the whatsapp group including the stakeholders.
-- References.
+  #### Log of interaction with stakeholders:
+
+  |Meeting Number| Meeting Date| Meeting Length| Absent| Discussion Summary|
+  |---------------|------------|---------------|-------|--------|
+  | 01| 10/10/2024| 20 mins| None| Discussion of th requirements, third party resources and clarifying concepts|
+  | 02| 24/10/2024| 20 mins| None| Discussion of the implementation, features, had an overview and agreement of the final version of the project|
+  
+  #### References:
+  1. Macquarie University iLearn (2024): https://ilearn.mq.edu.au/mod/assign/view.php?id=8173968
+  2.  Macquarie University Single Sign-On (SSO) Guidelines (2024): https://oneid.mq.edu.au
+  3. Tutorial for UML Interaction Diagrams: https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
+     
 - Third-party-resources
 
 ## Note
