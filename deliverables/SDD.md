@@ -5,7 +5,7 @@
 
 ## Structure
 
-### Title Page (Lisa)
+### Title Page (Lisa) 
 
 - Project name, names of all team members
 
