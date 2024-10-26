@@ -645,9 +645,15 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 | Task ID | Description | Task Dependencies | Effort (stars) | Milestone|
 |--------|--------------|-------------------|-----------------|----------|
 | T001| Prompting a menu asking for details to create IDs| None| 3| Milestone1|
-| T002| Creating a challenge creation module for staff| T001| 4| Milestone 2|
+| T002| Creating a challenge creation module for staff| T001| 4| Milestone2|
 | T003| Establishing a system to enroll the students in for challanges| T002| 3| Milestone3|
-| T004| Showing a dialogue box for student feedback on completion of their challange|  T003| 2| Milestone3|  
+| T004| Showing a dialogue box for student feedback on completion of their challange|  T003| 2| Milestone3| 
+| T005| Providing a system for reward vouchers that generates store validated barcodes| T003| 4| Milestone4|
+| T006| Implementing usability tests for the users| T004| 4| Milestone5| 
+|T007| Improving UI/UX with the help of feedbacks from students and usability test results| T004 & T006| 5| Milsetone5|
+|T008| Testing the system for errors and performance problems| All | 5| Milestone6|
+|T009| Deploying the system for initial launch| All| 5| Milestone6| 
+|T010| Collecting feedback documents from initial users for adjustments| T009| 3| Milestone6|
 
 
 Describe the main tasks that need to be completed, in the form of a table. The table should include
