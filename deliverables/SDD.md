@@ -32,6 +32,8 @@
 | 25/10/2024          | List of Design Assumptions | SM       | Team members     |
 |26/10/2024           | Setting Milestones        | MHT       | Team members|
 | 26/10/2024          | Tasks for milestones| MHT | Team Members|
+|26/10/2024| Summary and Outlook| MHT| Team Members|
+
 
 ### System Design Document (Reesha)
 
@@ -688,9 +690,12 @@ For each risk include
 
 ### Summary and Outlook (Mariya)
 
-The groundwork for a creative campus experience has been effectively established by the Explore MQ initiative. This feature seeks to strengthen students' feeling of community and participation through dynamic challenges, tailored incentives, and smooth connection with Macquarie University's systems. With crucial systems and infrastructure in place to provide user identification, challenge management, and reward integration, the "Explore MQ" feature's development has reached a crucial halfway point. The objective is to give staff strong tools to develop and handle campus difficulties while simultaneously delivering students a smooth and interesting experience.
+The groundwork for a creative campus experience has been effectively established by the Explore MQ initiative. The team hopes to strengthen students' feelings of community and participation through dynamic challenges, tailored incentives, rewarding processes, and smooth connection with Macquarie University's systems. This system has infrastructure for user identification, challenge management, and reward integration. The Explore MQ’s development has reached a crucial point. Now the objective is to give staff adequate tools to develop and handle campus difficulties while simultaneously delivering students a smooth and interesting experience.
+As the system transitions toward its final phases which include usability testing, system optimization, and deployment, the team is still dedicated to providing the university community with a reliable, safe, and interesting tool. Our approach prioritizes performance, security, and scalability as we approach final deployment to make sure "Explore MQ" can expand to meet Macquarie University's changing requirements and user acceptance. This project will increase campus involvement and benefit staff and students in the long run. A driving concept has been the balancing act between performance and flexibility, which permits a seamless user experience while guaranteeing that the system can manage large traffic volumes, especially during busy campus events.
 
-Our approach will prioritize performance, security, and scalability as we approach final deployment to make sure "Explore MQ" can expand to meet Macquarie University's changing requirements. This project will increase campus involvement and benefit staff and students in the long run.
+To sum up, Explore MQ is expected to play a significant role in the Macquarie University student experience by influencing the way that students engage with the campus and the outside community whilst the staff will look after the whole process. The project will have a long-lasting effect on student involvement and engagement. With a committed staff and a well-defined plan, Explore MQ will rapidly become a vital component of the institution’s digital platform.
+
+
 ### Appendices (Everyone)
 
 - Log of interactions with stakeholders.   - see it in the whatsapp group including the stakeholders.
