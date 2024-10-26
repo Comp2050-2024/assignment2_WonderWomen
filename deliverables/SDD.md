@@ -688,8 +688,9 @@ For each risk include
 
 ### Summary and Outlook (Mariya)
 
-Your famous final words.
+The groundwork for a creative campus experience has been effectively established by the Explore MQ initiative. This feature seeks to strengthen students' feeling of community and participation through dynamic challenges, tailored incentives, and smooth connection with Macquarie University's systems. With crucial systems and infrastructure in place to provide user identification, challenge management, and reward integration, the "Explore MQ" feature's development has reached a crucial halfway point. The objective is to give staff strong tools to develop and handle campus difficulties while simultaneously delivering students a smooth and interesting experience.
 
+Our approach will prioritize performance, security, and scalability as we approach final deployment to make sure "Explore MQ" can expand to meet Macquarie University's changing requirements. This project will increase campus involvement and benefit staff and students in the long run.
 ### Appendices (Everyone)
 
 - Log of interactions with stakeholders.   - see it in the whatsapp group including the stakeholders.
