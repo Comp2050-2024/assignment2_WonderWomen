@@ -641,6 +641,10 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 
 #### Tasks(MAriya)
 
+| Task ID | Description | Task Dependencies | Effort (stars) | Milestone|
+|--------|--------------|-------------------|-----------------|----------|
+| T001| Prompting a menu asking for details to create IDs| None| 3| Milestone1|
+
 Describe the main tasks that need to be completed, in the form of a table. The table should include
 
 - An ID for the task
