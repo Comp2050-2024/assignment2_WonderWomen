@@ -30,6 +30,7 @@
 | 25/10/2024          | System Design Document   | SRK              |   Team members   |
 | 25/10/2024          | Requirement Traceability Matrix | SRK       | Team members     |
 | 25/10/2024          | List of Design Assumptions | SM       | Team members     |
+|26/10/2024| Setting Milestones| MHT| Team members|
 
 ### System Design Document (Reesha)
 
