@@ -36,6 +36,9 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |26/10/2024| Summary and Outlook| MHT| Team Members|
 |26/10/2024| Added Log of Interaction with Stakeholders|MHT|Team Members|
 |26/10/2024| Added References| MHT| Team Members|
+|26/10/24| Added Vision Statement | LT | Team Members |
+|26/10/24| Created Risk Table | LT | Team Members |
+|26/10/24| Added Third Party Resources | LT | Team Members |
 
 ### System Design Document (Reesha)
 
@@ -713,8 +716,12 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   1. Macquarie University iLearn (2024): https://ilearn.mq.edu.au/mod/assign/view.php?id=8173968
   2.  Macquarie University Single Sign-On (SSO) Guidelines (2024): https://oneid.mq.edu.au
   3. Tutorial for UML Interaction Diagrams: https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
-     
-- Third-party-resources
+
+
+#### Third-party-resources:
+  1. VS Code for visual diagrams https://code.visualstudio.com/updates/v1_86 26-10-24
+  2. ChatGPT 3.5 for report idea https://chatgpt.com 26-10-24
+  3. QuillBot AI for grammar and punctual correction https://quillbot.com 26-10-24
 
 ## Note
 
