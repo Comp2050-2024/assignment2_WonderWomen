@@ -39,6 +39,14 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |26/10/24| Added Vision Statement | LT | Team Members |
 |26/10/24| Created Risk Table | LT | Team Members |
 |26/10/24| Added Third Party Resources | LT | Team Members |
+|27/10/2024| Added References| SRK | Team members|
+|27/10/2024| Added Note for Abbreviations| SRK | Team members|
+
+* Note: In the above log table the full form of the abbreviation is given below
+  SRK = Sathya Reesha Kodali
+  SM = Sathvika Mannepally
+  MHT = Mariya Hoque Trina
+  LT = Lisa Thiparala
 
 ### System Design Document (Reesha)
 
@@ -716,6 +724,9 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   1. Macquarie University iLearn (2024): https://ilearn.mq.edu.au/mod/assign/view.php?id=8173968
   2.  Macquarie University Single Sign-On (SSO) Guidelines (2024): https://oneid.mq.edu.au
   3. Tutorial for UML Interaction Diagrams: https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
+  4. How to prepare a Software Design Document: https://medium.com/@dulajfree/how-to-prepare-a-software-design-document-79079baa7ad4
+  5. What is Requirement Traceability Matrix (RTM)?: https://www.perforce.com/resources/alm/requirements-traceability-matrix
+  6. 
 
 
 #### Third-party-resources:
