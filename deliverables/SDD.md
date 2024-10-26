@@ -14,8 +14,9 @@
   - Mariya Hoque Trina - 47992700
   - Lisa Thiparala  - 47410272
   
-- Vision statement
-  > This should be a new and fresh vision statement and not a copy of the SRS team's statement.
+- Vision statement:
+In order to create an interesting and dynamic experience that encourages community spirit and a sense of belonging for both new and returning Macquarie University students, Explore MQ aims to seamlessly combine the thrill of campus exploration with the ease of mobile technology. Explore MQ gives employees the freedom to create and implement dynamic, adaptable challenge programs, which allows the institution to collaborate with nearby companies and campus services to provide alluring incentives. In addition to gamifying the campus experience, this feature makes it enjoyable, competitive, and instructive for students to become acquainted with their surroundings.
+Explore MQ turns campus orientation into an exciting trip by combining virtual challenges with in-person interactions. This encourages students to find important sites, connect with other students, and utilise university resources and services. This program seeks to improve the overall student experience and foster enduring participation by encouraging deep ties within the Macquarie community. Explore MQ will act as a bridge and a guide, enhancing everyone's ability to access and feel welcome on campus.
 
 |Date of New Version  | Changes made         | Changes made by |  Changes agreed by |
 | -------------       | -------------        |  -------------  |  -------------     |       
@@ -682,9 +683,12 @@ For each risk include
 - The severity of the risk (use an appropriate scale: none to catastrophic, or 0 to 10, or ...)
 - Mitigation strategies. Suggest measures that can be taken to reduce the risk.
 
-|  ID                 |                      |                 |                    |
-| -------------       | -------------        |  -------------  |  -------------     |   
-| 1                   |                      |                 |                    |
+| Risk ID |   Description        |   Probabbility  |   Severity     | Mitigation Strategy |
+| R01     | -------------        |  -------------  |  ------------- | ------------------- |  
+| R01  | Changes in management and/or stakeholders requirements that lead to the project goals being changed.  |   Medium  |   High  | High
+Consistent and regular meetings with stakeholders to ensure expectations and decisions are aligned.|
+
+
 
 > Since you do not know how many people work on the project, or what resources you may have, it does not make too much sense to talk about people risk, or estimation risk, yet. Furthermore, if something like a probability is unknown, is better to say that it is unknown, instead of making something up.
 
