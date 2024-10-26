@@ -645,6 +645,10 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 | Task ID | Description | Task Dependencies | Effort (stars) | Milestone|
 |--------|--------------|-------------------|-----------------|----------|
 | T001| Prompting a menu asking for details to create IDs| None| 3| Milestone1|
+| T002| Creating a challenge creation module for staff| T001| 4| Milestone 2|
+| T003| Establishing a system to enroll the students in for challanges| T002| 3| Milestone3|
+| T004| Showing a dialogue box for student feedback on completion of their challange|  T003| 2| Milestone3|  
+
 
 Describe the main tasks that need to be completed, in the form of a table. The table should include
 
