@@ -613,28 +613,28 @@ To support the MVP, the following elements of the architecture must be present:
 In conclusion, the MVP will enable safe authentication, simple frontend interfaces, and the required database support while offering crucial features for user management, challenge enrolment, reward management, and notification. Early adopters can interact with key features in this foundational version and provide insightful input that will inform future enhancements and feature additions.
 
 
-#### Milestones(Mariya)
+### Milestones(Mariya)
 
 #### Milestone 1: Creating User Profile, Management and Access:
 
 Successfully Establish role-based access for students, employees, and store partners by creating user profiles and integrating them with the university's student data.
 
-# Milestone 2: Challenge Creation and Management:
+#### Milestone 2: Challenge Creation and Management:
 
 Construct a system for creating challenges that will enable employees to plan, oversee, and administer challenges on campus. Updating the system constantly with information to track student progress in real time.
 
-# Milestone 3: Student Participation and Feedback:
+#### Milestone 3: Student Participation and Feedback:
 
 Accomplish a system that allows students to view and sign up for challenges. Successfully prompts updates on developments, status of completion, and impending due dates.
 
-# Milestone 4: Implementing challenge completion system:
+#### Milestone 4: Implementing challenge completion system:
 
 Establish the mechanism for producing e-vouchers after a challenge is finished. Install store validation mechanisms for partners and incorporate barcode generation for prizes.
 
-# Milestone 5: Setting up the UI/UX for user acceptance:
+#### Milestone 5: Setting up the UI/UX for user acceptance:
 Test usability for employees and students alike. To guarantee usability and system coherence with the larger MQ app, make necessary adjustments to the UI and UX for user acceptance.
 
-# Milestone 6: Testing features
+#### Milestone 6: Testing features
 
 Conduct comprehensive testing of the functionalities, confirm with stakeholders, and implement the system for a demo release. Before a full-scale rollout, get feedback from initial users to improve the platform.
 
