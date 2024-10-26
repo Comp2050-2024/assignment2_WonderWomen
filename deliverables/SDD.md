@@ -615,7 +615,7 @@ In conclusion, the MVP will enable safe authentication, simple frontend interfac
 
 #### Milestones(Mariya)
 
-# Milestone 1: Creating User Profile, Management and Access:
+#### Milestone 1: Creating User Profile, Management and Access:
 
 Successfully Establish role-based access for students, employees, and store partners by creating user profiles and integrating them with the university's student data.
 
