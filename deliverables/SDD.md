@@ -43,9 +43,9 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |27/10/2024| Added Note for Abbreviations| SRK | Team members|
 
 * Note: In the above log table the full form of the abbreviation is given below
-  SRK = Sathya Reesha Kodali
-  SM = Sathvika Mannepally
-  MHT = Mariya Hoque Trina
+  SRK = Sathya Reesha Kodali,
+  SM = Sathvika Mannepally,
+  MHT = Mariya Hoque Trina,
   LT = Lisa Thiparala
 
 ### System Design Document (Reesha)
