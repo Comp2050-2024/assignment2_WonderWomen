@@ -5,7 +5,7 @@
 
 ## Structure
 
-### Title Page (Lisa) 
+### Title Page 
 
 - Project name, names of all team members
 
@@ -41,6 +41,7 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |26/10/24| Added Third Party Resources | LT | Team Members |
 |27/10/2024| Added References| SRK | Team members|
 |27/10/2024| Added Note for Abbreviations| SRK | Team members|
+|27/10/2024| Formatted the whole document| SRK | Team members|
 
 * Note: In the above log table the full form of the abbreviation is given below
   SRK = Sathya Reesha Kodali,
@@ -48,9 +49,7 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
   MHT = Mariya Hoque Trina,
   LT = Lisa Thiparala
 
-### System Design Document (Reesha)
-
-This will include the basic architecture of the system and the high-level strategic decisions. You need to include a description of the:
+### System Design Document
 
 - System architecture
 The architecture of "Explore MQ" will include various layers:
@@ -140,8 +139,6 @@ The system will consist of various subsystems or modules:
 
 ### Data Definitions (Reesha)
 
-Create a table showing what data will need to be stored in your system. For each item give the name of the field/attribute/variable, its type, its meaning in the problem domain expressed in natural language, and an example of valid data.
-
 |  Field Name         | Type                 | Meaning                                                                                  |  Example           |
 | -------------       | -------------        |  ------------------------------------                                                    |  -------------     |       
 | UserID              | INT                  |  Each student or staff or store partners have been assigned a unique identifier.         |  123456            |
@@ -160,9 +157,7 @@ Create a table showing what data will need to be stored in your system. For each
 
 ### Analysis and Design
 
-#### Class Diagram (Sathvika)
-
-You need to do an initial design of your system -- what basic objects should it have? And what are the methods associated with those objects? You will represent your design decisions in a class diagram. In a full plan, you need to make sure any classes or methods in any sequence diagrams have been included in the class diagram -- it might help you to draw some sequence diagrams to help you to decide what your class diagram should contain. Method signatures should be given. The diagram must include, as appropriate classes, attributes, associations, inheritance and/or aggregation (if applicable) and multiplicities.
+#### Class Diagram 
 
 BASIC OBJECTS AND CLASSES:
 
@@ -330,9 +325,7 @@ One or zero Rewards can be linked to a notification ("1" *-- "0..1").
 
 
 
-#### One or more State Diagrams for the more interesting objects in your design (Sathvika)
-
-State Diagrams: You are required to consider the relevant states of each object in your system and to submit state diagrams for those that have interesting states or complex behaviour. One way to measure if a state is interesting is to consider whether you need to test that state before performing a particular action or if the state changes after an action is performed. What is interesting will depend on the application.
+#### One or more State Diagrams for the more interesting objects in your design 
 
 ######  Challenge State diagram 
 
@@ -401,16 +394,7 @@ States transition:
 
 
 
-### Requirements Traceability Matrix (reesha)
-
-Requirements Traceability Matrix (RTM): Set up an RTM with the following columns:
-
-- Requirement-ID (from SRS)
-- Use Cases
-- Classes
-- Methods
-- Packages
-- Build Number (kept blank at this stage)
+### Requirements Traceability Matrix
 
 The RTM assigns requirements to the appropriate use cases, classes, methods, and packages, ensuring complete traceability.
 
@@ -426,12 +410,7 @@ The RTM assigns requirements to the appropriate use cases, classes, methods, and
 | FR - 8         | Student Verification | User, Auth | verifyStudent() | Authentication |                    |
 | FR - 9         | Profile Management | User, Task | manageProfiles() | User Management |                    |
 
-> There should be one row for each requirement. For this deliverable, just fill in the first five columns, since the last column (and usually a couple more after that which I've already deleted) are concerned with the design of the system.
-
-### List of design assumptions (if any)
-
-This will help the reader to understand why you have done certain things. Please review the assumptions carefully before submission. (But note: A poor assumption should not be used as an excuse for poor design decisions.)
-
+### List of design assumptions
 
 1. Assumptions for the Challenge State Diagram Design:
 
@@ -462,19 +441,7 @@ Explanation of  Assumptions:
 
 These presumptions seek to streamline the lifecycle of each item by emphasising important stages while avoiding needless complexity. They make it clear that most transitions are either system-driven (like expiration because of time limits) or user-driven (like signing up for a challenge or using a reward). These presumptions guarantee that every object operates reliably and preserves an easy-to-use interface by specifying distinct, non-overlapping states.
 
-### Test specifications (Sathvika)
-
-Test Specifications should contain the following:
-
-- Test-case specifications, made up of test-case identifiers, and test data (input specifications and output specifications).
-  Acceptable documentation for Test Case Specifications would include:
-  - Test Case Identifier
-  - Test description
-  - Input specifications
-  - Output specifications
-- Test plans, including for example a test schedule, testing resources required, testing milestones and test deliverables. Test plans, covering scheduling and resourcing of all testing processes. Test plans can be more open format and should provide a description of how you would organise the actual testing of the Test Case Specifications that you've identified.
-
-> The test specification section should cover at least one-third of the report.
+### Test specifications 
 
 1. Test Case Specifications:
    
@@ -571,14 +538,9 @@ Example of a Functional Testing Process:
 
 ### Project Management
 
-#### Minimal Viable Product (Sathvika)
-
-A description of the _minimal viable product_. This is a version of the product, that is suitable for the client, trusted customers, or early adopter to use for evaluation. Which of the requirements does it implement, and which part of the architecture needs to be in place?
-
+#### Minimal Viable Product 
 
 The first iteration of the system that incorporates only the necessary features for early assessment by clients, early adopters, or trusted consumers is known as the Minimal Viable Product (MVP). The MVP's objective is to deliver a working product with essential functionality while allowing for future improvements. It provides the framework for getting input and confirming the system's feasibility.
-
-
 
 Requirements Implemented in the MVP:
 
@@ -628,8 +590,7 @@ To support the MVP, the following elements of the architecture must be present:
 
 In conclusion, the MVP will enable safe authentication, simple frontend interfaces, and the required database support while offering crucial features for user management, challenge enrolment, reward management, and notification. Early adopters can interact with key features in this foundational version and provide insightful input that will inform future enhancements and feature additions.
 
-
-### Milestones(Mariya)
+### Milestones
 
 #### Milestone 1: Creating User Profile, Management and Access:
 
@@ -655,7 +616,7 @@ Test usability for employees and students alike. To guarantee usability and syst
 Conduct comprehensive testing of the functionalities, confirm with stakeholders, and implement the system for a demo release. Before a full-scale rollout, get feedback from initial users to improve the platform.
 
 
-#### Tasks(MAriya)
+#### Tasks
 
 | Task ID | Description | Task Dependencies | Effort (stars) | Milestone|
 |--------|--------------|-------------------|-----------------|----------|
@@ -671,22 +632,7 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 |T010| Collecting feedback documents from initial users for adjustments| T009| 3| Milestone6|
 
 
-#### Risks (Lisa)
-
-A table with the following types of risks
-- Organizational risks that come from changes in the organizational environment. Think of changing stakeholders or management, or a change of mind of stakeholders or management.
-- Requirements risks, that come from changes to the requirements, or wrong requirements, and the process of managing requirement changes.
-- Technology risks that come from the software or hardware technologies that are used by the system. **Include here parts of the system that you may need from the team that works on the other half of the system, or parts that you both depend on.**
-- Tools risks that come from the software tools and other support software used to develop the system.
-
-For each risk include
-
-- An ID
-- A description of the risk.
-- The probability of that risk happening (use an appropriate scale: low to high, or 0% to 100%, or ...)
-- The severity of the risk (use an appropriate scale: none to catastrophic, or 0 to 10, or ...)
-- Mitigation strategies. Suggest measures that can be taken to reduce the risk.
-
+#### Risks 
 
 | Risk ID | Description | Probability | Severity | Mitigation Strategy |
 | ------- | ----------- | ----------- | -------- | ------------------- |
@@ -699,8 +645,6 @@ For each risk include
 | R07 | Limitations in hardware/software, impacting the performance or scalability of the app. | Low | Medium | Select technology stacks that are scalable and conduct performance testing. |
 | R08 | The different software tools used by multiple teams may be incompatible. | Medium | Medium | Ensure interoperability is maintained through standardised tool usage among teams. | 
 
-
-> Since you do not know how many people work on the project, or what resources you may have, it does not make too much sense to talk about people risk, or estimation risk, yet. Furthermore, if something like a probability is unknown, is better to say that it is unknown, instead of making something up.
 
 ### Summary and Outlook (Mariya)
 
@@ -726,7 +670,6 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   3. Tutorial for UML Interaction Diagrams: https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
   4. How to prepare a Software Design Document: https://medium.com/@dulajfree/how-to-prepare-a-software-design-document-79079baa7ad4
   5. What is Requirement Traceability Matrix (RTM)?: https://www.perforce.com/resources/alm/requirements-traceability-matrix
-  6. 
 
 
 #### Third-party-resources:
