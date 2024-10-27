@@ -1,7 +1,5 @@
 # Software Design Document
 
-> Use this markdown file to create the report. For the submission print this document to a PDF, and upload it to iLearn. The maximum number of pages is 30.
-> Use the document structure below.
 
 ## Structure
 
@@ -61,25 +59,25 @@ The architecture of "Explore MQ" will include various layers:
 
 1. Client/Front-End Layer:-
    
-  The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
+    The client/front-end layer includes a mobile application (iOS/Android). The front end is a smartphone app for students, employees, and store partners. This app will have   interfaces for logging in, viewing and participating in challenges, tracking progress, and redeeming rewards. The overall user experience must be uniform across platforms (iOS and Android), including a responsive design to accommodate different screen sizes.
    
   User Interface: The interface design is unified and aligns with the other Macquarie University apps, including colour schemes and layout norms. It provides simplicity of use and a short learning curve.
 
 2. Backend Layer:-
 
-  The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
+    The backend layer includes the application server, which manages user authentication, challenges, and rewards. This will cover fundamental features, including user administration, challenge participation, and reward redemption. The backend will interface with the university's Single Sign-On (SSO) system to authenticate users.
 
   API Gateway: The API will include endpoints for challenge enrolment, award redemption, and progress tracking, enabling mobile clients to transmit and retrieve data securely.
 
 3. DataBase Layer:-
 
-  The data layer consists of a relational database that stores organised information on users, challenges, awards, and student progress (e.g., MySQL or PostgreSQL). Tables will be normalised to decrease redundancy while maintaining data integrity.
+    The data layer consists of a relational database that stores organised information on users, challenges, awards, and student progress (e.g., MySQL or PostgreSQL). Tables will be normalised to decrease redundancy while maintaining data integrity.
    
 Data Encryption: Susceptible information, including passwords and award details, will be protected using AES-256 at rest and TLS/SSL while in transit.
 
 4. Integration Layer:-
 
-  The system interfaces with Macquarie University's SSO system to provide safe authentication with university credentials.
+   The system interfaces with Macquarie University's SSO system to provide safe authentication with university credentials.
    
   APIs or direct connections with local stores' point-of-sale (POS) systems provide smooth incentive redemption and tracking.
 
@@ -89,7 +87,7 @@ Data Encryption: Susceptible information, including passwords and award details,
 
 1. Relational Database:-
   
-  A relational database stores profiles of users, challenge data, reward information, and student progress in a structured fashion. A relational database (such as MySQL or PostgreSQL) is perfect for managing complicated relationships among users, challenges, and rewards.
+    A relational database stores profiles of users, challenge data, reward information, and student progress in a structured fashion. A relational database (such as MySQL or PostgreSQL) is perfect for managing complicated relationships among users, challenges, and rewards.
 
   To improve query performance, each table will have suitable indexes on regularly searched fields (for example, userID, challengeID).
 
@@ -142,7 +140,7 @@ The system will consist of various subsystems or modules:
 ![image](https://github.com/user-attachments/assets/46b4efee-8b6a-4d47-83b3-03230f762a15)
 
 
-### Data Definitions (Reesha)
+### Data Definitions
 
 |  Field Name         | Type                 | Meaning                                                                                  |  Example           |
 | -------------       | -------------        |  ------------------------------------                                                    |  -------------     |       
@@ -330,7 +328,6 @@ One or zero Rewards can be linked to a notification ("1" *-- "0..1").
 
 
 
-#### One or more State Diagrams for the more interesting objects in your design 
 
 ######  Challenge State diagram 
 
@@ -651,7 +648,7 @@ Conduct comprehensive testing of the functionalities, confirm with stakeholders,
 | R08 | The different software tools used by multiple teams may be incompatible. | Medium | Medium | Ensure interoperability is maintained through standardised tool usage among teams. | 
 
 
-### Summary and Outlook (Mariya)
+### Summary and Outlook
 
 The groundwork for a creative campus experience has been effectively established by the Explore MQ initiative. The team hopes to strengthen students' feelings of community and participation through dynamic challenges, tailored incentives, rewarding processes, and smooth connection with Macquarie University's systems. This system has infrastructure for user identification, challenge management, and reward integration. The Explore MQ’s development has reached a crucial point. Now the objective is to give staff adequate tools to develop and handle campus difficulties while simultaneously delivering students a smooth and interesting experience.
 
@@ -660,7 +657,7 @@ As the system transitions toward its final phases which include usability testin
 To sum up, Explore MQ is expected to play a significant role in the Macquarie University student experience by influencing the way that students engage with the campus and the outside community whilst the staff will look after the whole process. The project will have a long-lasting effect on student involvement and engagement. With a committed staff and a well-defined plan, Explore MQ will rapidly become a vital component of the institution’s digital platform.
 
 
-### Appendices (Everyone)
+### Appendices
 
   #### Log of interaction with stakeholders:
 
@@ -684,8 +681,5 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   3. QuillBot AI for grammar and punctual correction https://quillbot.com 26-10-24
   4. Grammarly for grammar and punctual correction https://www.grammarly.com/releases 26-10-24
 
-## Note
-
-> Do not forget that we also expect you to complete an individual reflection on iLearn.
 
 
