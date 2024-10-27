@@ -670,6 +670,7 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   3. Tutorial for UML Interaction Diagrams: https://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
   4. How to prepare a Software Design Document: https://medium.com/@dulajfree/how-to-prepare-a-software-design-document-79079baa7ad4
   5. What is Requirement Traceability Matrix (RTM)?: https://www.perforce.com/resources/alm/requirements-traceability-matrix
+  6. Visualize and Create Effective Designs: https://creately.com/diagram-type/class-diagram/
 
 
 #### Third-party-resources:
