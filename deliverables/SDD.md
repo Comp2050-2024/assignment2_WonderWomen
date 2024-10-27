@@ -39,14 +39,18 @@ Explore MQ turns campus orientation into an exciting trip by combining virtual c
 |26/10/24| Added Vision Statement | LT | Team Members |
 |26/10/24| Created Risk Table | LT | Team Members |
 |26/10/24| Added Third Party Resources | LT | Team Members |
-|27/10/2024| Added References| SRK | Team members|
-|27/10/2024| Added Note for Abbreviations| SRK | Team members|
-|27/10/2024| Formatted the whole document| SRK | Team members|
+|27/10/2024| Added References| SRK | Team Members|
+|27/10/2024| Added Note for Abbreviations| SRK | Team Members|
+|27/10/2024| Formatted the whole document| SRK | Team Members|
+|27/10/2024| Final overview and formatting| MHT| Team Members|
 
 * Note: In the above log table the full form of the abbreviation is given below
   SRK = Sathya Reesha Kodali,
+  
   SM = Sathvika Mannepally,
+  
   MHT = Mariya Hoque Trina,
+  
   LT = Lisa Thiparala
 
 ### System Design Document
