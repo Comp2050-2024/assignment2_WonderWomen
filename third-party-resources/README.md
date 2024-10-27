@@ -14,7 +14,11 @@ Furthermore, note that any resource that you include in your submission, will be
 If you want some help on how to properly reference, and how to properly include citation, do not hesitate to contact the [Writing Centre](https://students.mq.edu.au/support/study/writing).
 
 ## List of used Resources
- VS Code for visual diagrams https://code.visualstudio.com/updates/v1_86 26-10-24
+VS Code for visual diagrams https://code.visualstudio.com/updates/v1_86 26-10-24
+ 
 ChatGPT 3.5 for report idea https://chatgpt.com 26-10-24
+
 QuillBot AI for grammar and punctual correction https://quillbot.com 26-10-24
+
 Grammarly for grammar and punctual correction https://www.grammarly.com/releases 26-10-24
+
