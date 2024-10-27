@@ -677,6 +677,7 @@ To sum up, Explore MQ is expected to play a significant role in the Macquarie Un
   1. VS Code for visual diagrams https://code.visualstudio.com/updates/v1_86 26-10-24
   2. ChatGPT 3.5 for report idea https://chatgpt.com 26-10-24
   3. QuillBot AI for grammar and punctual correction https://quillbot.com 26-10-24
+  4. Grammarly for grammar and punctual correction https://www.grammarly.com/releases 26-10-24
 
 ## Note
 
